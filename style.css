@@ -1,25 +1,8 @@
-body {
-  background-color: white;
-}
 table {
   border-collapse: collapse;
-  width: 100%;
 }
-th,
+tr,
 td {
   border: 1px solid black;
-  padding: 8px;
-  text-align: center;
-}
-th {
-  background-color: lightgray;
-}
-td {
-  background-color: white;
-}
-.current {
-  background-color: red;
-}
-.past {
-  background-color: green;
+  border-radius: 10px;
 }
