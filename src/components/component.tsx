@@ -14,19 +14,33 @@ export function Component() {
             <tr>
               <td
                 className="border px-4 py-2 text-black text-center"
-                rowSpan={3}>
+                rowSpan={5}>
                 Monday
               </td>
               <td className="border px-4 py-2 text-black text-center">
-                CA Lab
+                Automata
               </td>
               <td className="border px-4 py-2 text-black text-center">
-                11:00 - 13:00
+                10:00 - 11:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">EVS</td>
+              <td className="border px-4 py-2 text-black text-center">
+                11:00 - 12:00
               </td>
             </tr>
             <tr>
               <td className="border px-4 py-2 text-black text-center">
-                Algorithms
+                Discrete Mathematics
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                12:00 - 13:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
+                CA Theory
               </td>
               <td className="border px-4 py-2 text-black text-center">
                 13:30 - 14:30
@@ -34,7 +48,7 @@ export function Component() {
             </tr>
             <tr>
               <td className="border px-4 py-2 text-black text-center">
-                Automata
+                Biology
               </td>
               <td className="border px-4 py-2 text-black text-center">
                 14:30 - 15:30
@@ -42,12 +56,55 @@ export function Component() {
             </tr>
             <tr>
               <td
-                rowSpan={4}
+                rowSpan={5}
                 className="border px-4 py-2 text-black text-center">
                 Tuesday
               </td>
               <td className="border px-4 py-2 text-black text-center">
+                Automata
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                10:00 - 11:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
+                Discrete Mathematics
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                11:00 - 12:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">EVS</td>
+              <td className="border px-4 py-2 text-black text-center">
+                12:00 - 13:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
                 CA Theory
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                13:30 - 14:30
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
+                CA Lab
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                14:30 - 16:30
+              </td>
+            </tr>
+            <tr>
+              <td
+                rowSpan={4}
+                className="border px-4 py-2 text-black text-center">
+                Wednesday
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                Algorithms
               </td>
               <td className="border px-4 py-2 text-black text-center">
                 10:00 - 11:00
@@ -63,7 +120,7 @@ export function Component() {
             </tr>
             <tr>
               <td className="border px-4 py-2 text-black text-center">
-                Discrete Mathematics
+                CA Theory
               </td>
               <td className="border px-4 py-2 text-black text-center">
                 12:00 - 13:00
@@ -81,7 +138,44 @@ export function Component() {
               <td
                 rowSpan={4}
                 className="border px-4 py-2 text-black text-center">
-                Wednesday
+                Thursday
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                Algorithms
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                11:00 - 12:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
+                Discrete Mathematics
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                12:00 - 13:00
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
+                Biology
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                13:30 - 14:30
+              </td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2 text-black text-center">
+                Automata
+              </td>
+              <td className="border px-4 py-2 text-black text-center">
+                14:30 - 15:30
+              </td>
+            </tr>
+            <tr>
+              <td
+                rowSpan={4}
+                className="border px-4 py-2 text-black text-center">
+                Friday
               </td>
               <td className="border px-4 py-2 text-black text-center">
                 CA Lab
@@ -108,100 +202,10 @@ export function Component() {
             </tr>
             <tr>
               <td className="border px-4 py-2 text-black text-center">
-                Biology
+                Algorithms Lab
               </td>
               <td className="border px-4 py-2 text-black text-center">
-                14:30 - 15:30
-              </td>
-            </tr>
-            <tr>
-              <td
-                rowSpan={6}
-                className="border px-4 py-2 text-black text-center">
-                Thursday
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                Discrete Mathematics
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                10:00 - 11:00
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">EVS</td>
-              <td className="border px-4 py-2 text-black text-center">
-                11:00 - 12:00
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">
-                Biology
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                12:00 - 13:00
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">CA</td>
-              <td className="border px-4 py-2 text-black text-center">
-                13:30 - 14:30
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">
-                Automata
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                14:30 - 15:30
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">
-                Algorithms lab
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                15:30 - 17:30
-              </td>
-            </tr>
-            <tr>
-              <td
-                rowSpan={5}
-                className="border px-4 py-2 text-black text-center">
-                Friday
-              </td>
-              <td className="border px-4 py-2 text-black text-center">CA</td>
-              <td className="border px-4 py-2 text-black text-center">
-                10:00 - 11:00
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">EVS</td>
-              <td className="border px-4 py-2 text-black text-center">
-                11:00 -12:00
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">
-                Automata
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                12:00 - 13:00
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">
-                Algorithms
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                13:30 - 14:30
-              </td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2 text-black text-center">
-                Discrete Mathematics
-              </td>
-              <td className="border px-4 py-2 text-black text-center">
-                14:30 - 15:30
+                14:30 - 16:30
               </td>
             </tr>
           </tbody>
